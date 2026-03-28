@@ -1,0 +1,134 @@
+import axios from "axios";
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
+
+// ==============================
+// Nodemailer Transporter Setup
+// ==============================
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  host: "smtp.gmail.com",
+  port: 587,
+  secure: false,
+  auth: {
+    user: process.env.EMAIL_ADDRESS,
+    pass: process.env.GMAIL_PASSKEY,
+  },
+});
+
+// ==============================
+// Send Telegram Message Function
+// ==============================
+async function sendTelegramMessage(token, chat_id, message) {
+  if (!token || !chat_id) return false; // skip if token or chat_id missing
+
+  const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
+  try {
+    const res = await axios.post(url, { text: message, chat_id });
+    return res.data.ok;
+  } catch (error) {
+    console.error(
+      "Error sending Telegram message (skipped, check network/VPN):",
+      error.response?.data || error.message
+    );
+    return false;
+  }
+}
+
+// ==============================
+// Email HTML Template
+// ==============================
+const generateEmailTemplate = (name, email, userMessage) => `
+  <div style="font-family: Arial, sans-serif; color: #333; padding: 20px; background-color: #f4f4f4;">
+    <div style="max-width: 600px; margin: auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+      <h2 style="color: #007BFF;">New Message Received</h2>
+      <p><strong>Name:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Message:</strong></p>
+      <blockquote style="border-left: 4px solid #007BFF; padding-left: 10px; margin-left: 0;">
+        ${userMessage}
+      </blockquote>
+      <p style="font-size: 12px; color: #888;">Click reply to respond to the sender.</p>
+    </div>
+  </div>
+`;
+
+// ==============================
+// Send Email Function
+// ==============================
+async function sendEmail(payload, message) {
+  const { name, email, message: userMessage } = payload;
+
+  const mailOptions = {
+    from: `"Portfolio" <${process.env.EMAIL_ADDRESS}>`,
+    to: process.env.EMAIL_ADDRESS,
+    subject: `New Message From ${name}`,
+    text: message,
+    html: generateEmailTemplate(name, email, userMessage),
+    replyTo: email,
+  };
+
+  try {
+    await transporter.sendMail(mailOptions);
+    return true;
+  } catch (error) {
+    console.error("Error while sending email:", error.message);
+    return false;
+  }
+}
+
+// ==============================
+// API Route
+// ==============================
+export async function POST(request) {
+  try {
+    const payload = await request.json();
+    const { name, email, message: userMessage } = payload;
+
+    const token = process.env.TELEGRAM_BOT_TOKEN;
+    const chat_id = process.env.TELEGRAM_CHAT_ID;
+
+    const message = `New message from ${name}\n\nEmail: ${email}\n\nMessage:\n${userMessage}\n`;
+
+    // ==============================
+    // Send Telegram message (optional)
+    // ==============================
+    const telegramSuccess = await sendTelegramMessage(token, chat_id, message);
+
+    // ==============================
+    // Send email (always)
+    // ==============================
+    const emailSuccess = await sendEmail(payload, message);
+
+    if (emailSuccess) {
+      return NextResponse.json(
+        {
+          success: true,
+          message: telegramSuccess
+            ? "Message sent via Email and Telegram!"
+            : "Message sent via Email (Telegram skipped or failed).",
+        },
+        { status: 200 }
+      );
+    }
+
+    return NextResponse.json(
+      {
+        success: false,
+        message: "Failed to send message via Email.",
+      },
+      { status: 500 }
+    );
+  } catch (error) {
+    console.error("API Error:", error.message);
+
+    return NextResponse.json(
+      {
+        success: false,
+        message: "Server error occurred.",
+      },
+      { status: 500 }
+    );
+  }
+}
