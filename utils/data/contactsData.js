@@ -4,8 +4,8 @@ export const contactsData = {
     address: 'Taihu Campus, Wuxi University of Technology, Wuxi, China',
     github: 'https://github.com/sadekul-me',
     facebook: 'https://www.facebook.com/sadekulislam.me',
-    linkedIn: 'https://www.linkedin.com/in/sadekulislam-me/',
+    linkedIn: 'https://www.linkedin.com/in/sadekulislam-dev',
     twitter: 'https://x.com/sadekul_me',
-    stackOverflow: 'https://stackoverflow.com/users/',
+    stackOverflow: 'https://stackoverflow.com/users',
     devUsername: "sadekul-me"
 }

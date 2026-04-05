@@ -8,9 +8,9 @@ export const personalData = {
   address: 'Taihu Campus, Wuxi University of Technology, Wuxi, China',
   github: 'https://github.com/sadekul-me',
   facebook: 'https://www.facebook.com/sadekulislam.me',
-  linkedIn: 'https://www.linkedin.com/in/sadekulislam-me/',
+  linkedIn: 'https://www.linkedin.com/in/sadekulislam-dev',
   twitter: 'https://x.com/sadekul_me',
-  stackOverflow: 'https://stackoverflow.com/users/',
+  stackOverflow: 'https://stackoverflow.com/users',
   leetcode: "https://leetcode.com/u/SadekulDev/",
   devUsername: "sadekul-me",
   resume: "https://drive.google.com/drive/folders/1u8xxld068ikacZALKUCpm8vCt53JxWHT"

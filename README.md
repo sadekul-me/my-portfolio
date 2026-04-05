@@ -11,7 +11,7 @@
 <p align="center">
   <a href="mailto:sadekul.dev@gmail.com">📧 Email</a> •
   <a href="https://github.com/sadekul-me">💻 GitHub</a> •
-  <a href="https://www.linkedin.com/in/sadekulislam-me/">🔗 LinkedIn</a> •
+  <a href="https://www.linkedin.com/in/sadekulislam-dev">🔗 LinkedIn</a> •
   <a href="https://x.com/sadekul_me">🐦 Twitter</a> •
   <a href="https://www.facebook.com/sadekulislam.me">📘 Facebook</a>
 </p>
@@ -100,7 +100,7 @@ Check out my portfolio: [https://sadekulislam.netlify.app](https://sadekulislam.
 
 - **Email:** sadekul.dev@gmail.com  
 - **Phone:** +86 177 1530 2572  
-- **LinkedIn:** [sadekulislam-me](https://www.linkedin.com/in/sadekulislam-me/)  
+- **LinkedIn:** [sadekulislam-dev](https://www.linkedin.com/in/sadekulislam-dev)  
 - **Twitter:** [@sadekul_me](https://x.com/sadekul_me)  
 - **Facebook:** [sadekulislam.me](https://www.facebook.com/sadekulislam.me)
 

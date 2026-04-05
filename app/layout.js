@@ -101,7 +101,7 @@ export default function RootLayout({ children }) {
               sameAs: [
                 "https://www.wikidata.org/wiki/Q138819606",
                 "https://github.com/sadekul-me",
-                "https://www.linkedin.com/in/sadekulislam-me/",
+                "https://www.linkedin.com/in/sadekulislam-dev/",
                 "https://www.facebook.com/sadekulislam.me",
                 "https://x.com/sadekul_me",
                 "https://dev.to/sadekul-me"
