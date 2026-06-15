@@ -29,25 +29,54 @@ export const metadata = {
   },
 
   description:
-    "Sadekul Islam (Li Ao) is a Software Engineering student in China focused on AI systems, Human-Computer Interaction, OS Automation, and modern full-stack development.",
+  "Sadekul Islam (Li Ao) is a Software Engineering student in China, CTO & Shareholder at AnyWin Human Tech Limited, and a Full-Stack Developer focused on AI systems, Human-Computer Interaction (HCI), automation, scalable web applications, and digital product engineering.",
 
   keywords: [
-    "Sadekul Islam",
-    "Sadik",
-    "Li Ao",
-    "利奥",
-    "Software Engineer",
-    "AI Developer",
-    "Autonomous AI",
-    "Human Computer Interaction",
-    "HCI",
-    "OS Automation",
-    "InWuxi",
-    "Wuxi University of Technology",
-    "Next.js Developer",
-    "React Developer",
-    "Bangladeshi Developer",
-  ],
+  "Sadekul Islam",
+  "Sadik",
+  "Li Ao",
+  "Leo",
+  "利奥",
+
+  "Software Engineer",
+  "Software Engineering Student",
+  "Full Stack Developer",
+  "Frontend Developer",
+  "Backend Developer",
+
+  "CTO",
+  "Chief Technology Officer",
+  "Shareholder",
+
+  "AnyWin Human Tech Limited",
+
+  "AI Developer",
+  "AI Engineer",
+  "Artificial Intelligence",
+  "Autonomous AI",
+  "AI Systems",
+  "AI Automation",
+
+  "Human Computer Interaction",
+  "HCI",
+  "OS Automation",
+
+  "React Developer",
+  "Next.js Developer",
+  "TypeScript Developer",
+  "Node.js Developer",
+
+  "Web Application Developer",
+  "Software Architect",
+
+  "InWuxi",
+  "InChina",
+  "Wuxi University of Technology",
+
+  "Bangladeshi Developer",
+  "Bangladesh Software Engineer",
+  "Developer in China"
+],
 
   authors: [
     {
