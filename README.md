@@ -1,111 +1,214 @@
 <p align="center">
-  <img src="Sadekul%20Islam.png" alt="Sadekul Islam" width="1280" height="640"/>
+  <img src="Sadekul%20Islam.png" alt="Sadekul Islam (Li Ao)" width="1280" />
 </p>
 
-<h1 align="center">Sadekul Islam - Software Engineer</h1>
+<h1 align="center">Sadekul Islam (Li Ao)</h1>
 
 <p align="center">
-  <strong>Creative Full-Stack Developer | Passionate about Frontend & Backend | Lifelong Learner</strong>
+  Software Engineering Student • CTO & Shareholder • Full-Stack Developer
 </p>
 
 <p align="center">
-  <a href="mailto:sadekul.dev@gmail.com">📧 Email</a> •
-  <a href="https://github.com/sadekul-me">💻 GitHub</a> •
-  <a href="https://www.linkedin.com/in/sadekulislam-dev">🔗 LinkedIn</a> •
-  <a href="https://x.com/sadekul_me">🐦 Twitter</a> •
-  <a href="https://www.facebook.com/sadekulislam.me">📘 Facebook</a>
+  Designing AI Systems, Scalable Platforms, and Human-Centered Digital Experiences
 </p>
 
----
-
-## 👨‍💻 About Me
-
-I am an enthusiastic software developer with a passion for both **frontend and backend development**. My journey in technology has led me to explore **full-stack development, database management, and software architecture**. I believe technology has the power to **simplify lives and unlock new possibilities** in the digital world.  
-
-I thrive on **creative problem-solving**, continuous learning, and skill improvement. My aspiration is to collaborate with **international software companies**, enhancing my expertise while contributing to global technological advancement.  
-
-> 👨‍💻 **Belief:** Technology is not just code; it’s an infinite world of creativity. 🚀  
-
----
-
-## 🛠 Skills
-
-### Programming & Frontend
-C, C++, C#, HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, ViteJS, Bootstrap  
-
-### Backend & Database
-Node.js, Express, NestJS, MSSQL, MySQL, .NET, .NET Core, Linux  
-
-### Design & Tools
-Figma, Adobe XD, Illustrator, Canva, Photoshop, Picsart, Lightroom, Premiere Pro, After Effects, Adobe Audition, Microsoft Office, Git  
-
----
-
-## 💼 Projects
-
-### **1. E-Commerce Web Application**
-**Role:** Frontend Developer Intern  
-**Description:** Full-stack platform with authentication, product listings, cart, and order management.  
-**Tech:** React, TypeScript, Redux, Tailwind CSS, CSS Modules, AI API, OpenAI, GitHub  
-
-### **2. AI-Based Frontend Project**
-**Role:** Frontend Developer  
-**Description:** Built AI-powered frontend app during ICT Bangladesh internship; implemented responsive UI & dynamic features.  
-**Tech:** React, Node.js, Express, MSSQL, Visual Studio, JWT, Bootstrap  
-
-### **3. Modern House Design & Consultants**
-**Role:** Frontend Developer  
-**Description:** Responsive website for consultancy firm with YouTube gallery & contact form.  
-**Tech:** React, JSX, CSS, Figma, EmailJS  
-
-### **4. 3D Realistic Visualization Project**
-**Role:** Frontend Developer & 3D Visualizer  
-**Description:** 3D web app for architectural models using Three.js for realistic rendering.  
-**Tech:** React, Redux, Tailwind CSS, Three.js  
-
----
-
-## 🎓 Education
-
-- **Bachelor of Software Engineering** – Wuxi University of Technology (2025–2029)  
-- **Software Engineering** – ICT Bangladesh (Conducted by USA) (2024–2025)  
-- **Higher Secondary Certificate** – Domar Government College (2021–2023)  
-
----
-
-## 🏢 Experience
-
-- **Frontend Developer** – ICT Bangladesh (28 Jan – 30 Apr 2025)  
-- **Figma Designer** – Freelance / Personal Projects (Jun 2024 – Present)  
-- **Self-Employed** – Daily coding and project building (Jan 2024 – Present)  
-
----
-
-## 📊 GitHub Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sadekul-me&show_icons=true&theme=tokyonight" alt="Sadekul's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sadekul-me&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <a href="https://sadekulislam.netlify.app">
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Website-black?style=for-the-badge&logo=vercel" />
+  </a>
+  <a href="mailto:sadekul.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-black?style=for-the-badge&logo=gmail" />
+  </a>
+  <a href="https://github.com/sadekul-me">
+    <img src="https://img.shields.io/badge/GitHub-Projects-black?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/sadekulislam-dev">
+    <img src="https://img.shields.io/badge/LinkedIn-Professional-blue?style=for-the-badge&logo=linkedin" />
+  </a>
 </p>
 
 ---
 
-## 🌐 Portfolio
+## Overview
 
-Check out my portfolio: [https://sadekulislam.netlify.app](https://sadekulislam.netlify.app)
+I am **Sadekul Islam (Li Ao)**, a Software Engineering student based in China and currently serving as **Chief Technology Officer (CTO) & Shareholder at AnyWin Human Tech Limited**.
+
+My work centers around building scalable digital products, AI-powered applications, multilingual platforms, and modern software ecosystems capable of serving users at scale.
+
+I combine software engineering, product thinking, and user experience principles to transform complex ideas into reliable, real-world solutions.
 
 ---
 
-## ⚡ Contact Me
+## Areas of Expertise
 
-- **Email:** sadekul.dev@gmail.com  
-- **Phone:** +86 177 1530 2572  
-- **LinkedIn:** [sadekulislam-dev](https://www.linkedin.com/in/sadekulislam-dev)  
-- **Twitter:** [@sadekul_me](https://x.com/sadekul_me)  
-- **Facebook:** [sadekulislam.me](https://www.facebook.com/sadekulislam.me)
+* Full-Stack Application Development
+* Artificial Intelligence & Intelligent Automation
+* Human-Computer Interaction (HCI)
+* Product Engineering
+* System Design & Software Architecture
+* API Development & Authentication Systems
+* Database Architecture & Optimization
+* Cross-Platform Web & Mobile Solutions
+* Scalable SaaS Platforms
+
+---
+
+## Technology Stack
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,js,ts,python" />
+</p>
+
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,html,css" />
+</p>
+
+### Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,dotnet" />
+</p>
+
+### Database & Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,aws" />
+</p>
+
+Additional Technologies:
+
+* Microsoft SQL Server
+* Drizzle ORM
+* tRPC
+* Lucia Auth
+* JWT Authentication
+* Session Management
+* AWS S3
+* Stripe API
+
+### Development Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,figma" />
+</p>
+
+---
+
+## Featured Work
+
+### InWuxi — International City Gateway
+
+**Role:** CTO & Core Technical Member
+
+A multilingual city platform designed to connect international users, businesses, organizations, volunteers, and local services across Wuxi, China.
+
+Key responsibilities include:
+
+* Defining technical vision and architecture
+* Leading web and mobile platform development
+* Building scalable multilingual infrastructure
+* Engineering AI-powered knowledge systems
+* Designing expansion-ready platform architecture
+
+**Technology Stack**
+
+React 19 • TypeScript • Next.js • React Native • Tailwind CSS v4 • tRPC • Drizzle ORM • MySQL • Node.js • Lucia Auth • AWS S3 • Stripe API
+
+---
+
+### AI-Powered Applications
+
+Designing intelligent applications that leverage AI technologies to improve productivity, automate workflows, and enhance user experiences.
+
+---
+
+### E-Commerce Solutions
+
+Building scalable commerce platforms with authentication, product management, payment integration, and administrative systems.
+
+---
+
+### Interactive 3D Experiences
+
+Developing immersive visualization systems using modern web technologies and 3D rendering frameworks.
+
+---
+
+## Education
+
+### Wuxi University of Technology
+
+Bachelor of Software Engineering
+
+2025 — 2029
+
+### ICT Bangladesh
+
+Software Engineering Program
+
+2024 — 2025
+
+---
+
+## Professional Experience
+
+### AnyWin Human Tech Limited
+
+Chief Technology Officer (CTO) & Shareholder
+
+* Technical Strategy
+* Product Architecture
+* Engineering Leadership
+* System Design
+* Technology Evaluation
+
+### InWuxi Platform
+
+Core Technical Member
+
+* Platform Engineering
+* Multilingual Systems
+* Product Development
+* Scalable Architecture
+
+### ICT Bangladesh
+
+Frontend Developer
+
+Jan 2025 — Apr 2025
+
+---
+
+## Portfolio
+
+Visit the live website:
+
+### https://sadekulislam.netlify.app
+
+Explore projects, experience, technical expertise, and ongoing work.
+
+---
+
+## Connect
+
+* Email: [sadekul.dev@gmail.com](mailto:sadekul.dev@gmail.com)
+* Portfolio: https://sadekulislam.netlify.app
+* GitHub: https://github.com/sadekul-me
+* LinkedIn: https://www.linkedin.com/in/sadekulislam-dev
+* X: https://x.com/sadekul_me
 
 ---
 
 <p align="center">
-"Technology is not just code; it’s an infinite world of creativity." 🚀
+  <strong>
+    Building technology that scales globally, solves meaningful problems, and creates lasting impact.
+  </strong>
+</p>
+
+<p align="center">
+  Full-Stack Engineering • AI Systems • Product Development • Software Architecture
 </p>
