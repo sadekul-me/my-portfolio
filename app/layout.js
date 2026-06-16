@@ -29,54 +29,50 @@ export const metadata = {
   },
 
   description:
-  "Sadekul Islam (Li Ao) is a Software Engineering student in China, CTO & Shareholder at AnyWin Human Tech Limited, and a Full-Stack Developer focused on AI systems, Human-Computer Interaction (HCI), automation, scalable web applications, and digital product engineering.",
+    "Sadekul Islam (Li Ao) is a Software Engineering student in China, CTO & Shareholder at AnyWin Human Tech Limited, and a Full-Stack Developer specializing in AI systems, Human-Computer Interaction (HCI), automation, scalable web applications, and digital product engineering.",
 
   keywords: [
-  "Sadekul Islam",
-  "Sadik",
-  "Li Ao",
-  "Leo",
-  "利奥",
+    "Sadekul Islam",
+    "Sadik",
+    "Li Ao",
+    "利奥",
 
-  "Software Engineer",
-  "Software Engineering Student",
-  "Full Stack Developer",
-  "Frontend Developer",
-  "Backend Developer",
+    "Software Engineer",
+    "Software Engineering Student",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
 
-  "CTO",
-  "Chief Technology Officer",
-  "Shareholder",
+    "CTO",
+    "Chief Technology Officer",
+    "Shareholder",
 
-  "AnyWin Human Tech Limited",
+    "AnyWin Human Tech Limited",
 
-  "AI Developer",
-  "AI Engineer",
-  "Artificial Intelligence",
-  "Autonomous AI",
-  "AI Systems",
-  "AI Automation",
+    "AI Developer",
+    "AI Engineer",
+    "Artificial Intelligence",
+    "AI Systems",
+    "AI Automation",
 
-  "Human Computer Interaction",
-  "HCI",
-  "OS Automation",
+    "Human Computer Interaction",
+    "HCI",
 
-  "React Developer",
-  "Next.js Developer",
-  "TypeScript Developer",
-  "Node.js Developer",
+    "React Developer",
+    "Next.js Developer",
+    "TypeScript Developer",
+    "Node.js Developer",
 
-  "Web Application Developer",
-  "Software Architect",
+    "Web Application Developer",
+    "Software Architect",
 
-  "InWuxi",
-  "InChina",
-  "Wuxi University of Technology",
+    "InWuxi",
+    "InChina",
+    "Wuxi University of Technology",
 
-  "Bangladeshi Developer",
-  "Bangladesh Software Engineer",
-  "Developer in China"
-],
+    "Bangladeshi Developer",
+    "Developer in China",
+  ],
 
   authors: [
     {
@@ -99,7 +95,7 @@ export const metadata = {
   openGraph: {
     title: "Sadekul Islam (Li Ao) | Software Engineer",
     description:
-      "Software Engineering student focused on AI systems, automation, HCI, and scalable web technologies.",
+      "Software Engineering student, CTO, and Full-Stack Developer focused on AI systems, automation, HCI, and scalable web technologies.",
     url: siteUrl,
     siteName,
     locale: "en_US",
@@ -110,7 +106,7 @@ export const metadata = {
         url: "/Sadekul Islam.png",
         width: 1280,
         height: 640,
-        alt: "Sadekul Islam Portfolio",
+        alt: "Sadekul Islam (Li Ao) Software Engineer Portfolio",
       },
     ],
   },
@@ -119,9 +115,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "Sadekul Islam (Li Ao) | Software Engineer",
     description:
-      "AI systems, automation, HCI, and modern full-stack development.",
+      "CTO, Software Engineering Student, and Full-Stack Developer specializing in AI systems, automation, and HCI.",
     creator: "@SadekulDev",
-
     images: ["/Sadekul Islam.png"],
   },
 
@@ -151,17 +146,32 @@ const structuredData = {
 
   name: "Sadekul Islam",
 
-  alternateName: ["Sadik", "Li Ao", "利奥"],
+  alternateName: [
+    "Sadik",
+    "Li Ao",
+    "利奥",
+  ],
 
   url: siteUrl,
 
   image: `${siteUrl}/Sadekul Islam.png`,
 
-  jobTitle: "Software Engineer",
+  description:
+    "Software Engineering student in China, CTO & Shareholder at AnyWin Human Tech Limited, and Full-Stack Developer focused on AI systems, HCI, automation, and scalable web applications.",
+
+  jobTitle: [
+    "Software Engineer",
+    "Chief Technology Officer",
+  ],
 
   alumniOf: {
     "@type": "CollegeOrUniversity",
     name: "Wuxi University of Technology",
+  },
+
+  worksFor: {
+    "@type": "Organization",
+    name: "AnyWin Human Tech Limited",
   },
 
   memberOf: {
@@ -172,13 +182,18 @@ const structuredData = {
   knowsAbout: [
     "Software Engineering",
     "Artificial Intelligence",
+    "AI Systems",
     "Human-Computer Interaction",
-    "OS Automation",
+    "Automation Systems",
     "Computer Vision",
+    "Full Stack Development",
+    "Web Development",
     "Next.js",
     "React",
-    "C++",
+    "TypeScript",
     "JavaScript",
+    "Node.js",
+    "C++",
     "Python",
     "C#",
     "SQL Server",
@@ -198,7 +213,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -208,10 +222,11 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className={inter.className}>
-        {/* Toast Notifications */}
-        <ToastContainer position="top-right" autoClose={3000} />
+        <ToastContainer
+          position="top-right"
+          autoClose={3000}
+        />
 
-        {/* Main Layout */}
         <main className="relative mx-auto min-h-screen px-6 text-white sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem]">
           <Navbar />
           {children}
@@ -220,9 +235,10 @@ export default function RootLayout({ children }) {
 
         <Footer />
 
-        {/* Google Tag Manager */}
         {process.env.NEXT_PUBLIC_GTM && (
-          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+          <GoogleTagManager
+            gtmId={process.env.NEXT_PUBLIC_GTM}
+          />
         )}
       </body>
     </html>
