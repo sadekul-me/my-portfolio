@@ -20,7 +20,7 @@ async function getBlogs() {
         next: {
           revalidate: 3600, // 1 hour cache
         },
-      }
+      },
     );
 
     if (!response.ok) {
@@ -29,10 +29,7 @@ async function getBlogs() {
 
     const articles = await response.json();
 
-    return articles
-      .filter((article) => article?.cover_image)
-      .slice(0, 6);
-
+    return articles.filter((article) => article?.cover_image).slice(0, 6);
   } catch (error) {
     console.error("Blog Fetch Error:", error);
 
