@@ -1,59 +1,63 @@
-<p align="center">
-  <img src="Sadekul%20Islam.png" alt="Sadekul Islam (Li Ao)" width="1280" />
-</p>
+<div align="center">
 
-<h1 align="center">Sadekul Islam (Li Ao)</h1>
+# Sadekul Islam (Lì Ào / 利奥)
 
-<p align="center">
-  Software Engineering Student • CTO & Shareholder • Full-Stack Developer
-</p>
+### Co-Founder & Chief Technology Officer (CTO) • Software Engineering Student • Full-Stack Engineer
 
-<p align="center">
-  Designing AI Systems, Scalable Platforms, and Human-Centered Digital Experiences
-</p>
+Building scalable digital ecosystems, AI-powered platforms, and technology products designed for global impact.
 
-<p align="center">
-  <a href="https://sadekulislam.netlify.app">
-    <img src="https://img.shields.io/badge/Portfolio-Live%20Website-black?style=for-the-badge&logo=vercel" />
-  </a>
-  <a href="mailto:sadekul.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-black?style=for-the-badge&logo=gmail" />
-  </a>
-  <a href="https://github.com/sadekul-me">
-    <img src="https://img.shields.io/badge/GitHub-Projects-black?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://www.linkedin.com/in/sadekulislam-dev">
-    <img src="https://img.shields.io/badge/LinkedIn-Professional-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-</p>
+<br>
+
+<a href="https://sadekulislam.netlify.app">
+  <img src="https://img.shields.io/badge/Portfolio-Live%20Website-black?style=for-the-badge&logo=vercel" />
+</a>
+<a href="mailto:sadekul.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-black?style=for-the-badge&logo=gmail" />
+</a>
+<a href="https://github.com/sadekul-me">
+  <img src="https://img.shields.io/badge/GitHub-Projects-black?style=for-the-badge&logo=github" />
+</a>
+<a href="https://www.linkedin.com/in/sadekulislam-dev">
+  <img src="https://img.shields.io/badge/LinkedIn-Professional-blue?style=for-the-badge&logo=linkedin" />
+</a>
+
+</div>
 
 ---
 
 ## Overview
 
-I am **Sadekul Islam (Li Ao)**, a Software Engineering student based in China and currently serving as **Chief Technology Officer (CTO) & Shareholder at AnyWin Human Tech Limited**.
+I am **Sadekul Islam (Li Ao)**, a Software Engineering student in China and the **Co-Founder & Chief Technology Officer (CTO) of AnyWin Human Tech Limited**.
 
-My work centers around building scalable digital products, AI-powered applications, multilingual platforms, and modern software ecosystems capable of serving users at scale.
+My work focuses on designing and engineering scalable software platforms, multilingual digital ecosystems, AI-powered solutions, and modern technology products that solve real-world problems.
 
-I combine software engineering, product thinking, and user experience principles to transform complex ideas into reliable, real-world solutions.
+I enjoy operating at the intersection of engineering, product strategy, system architecture, and user experience—transforming ambitious ideas into practical, scalable solutions.
 
 ---
 
-## Areas of Expertise
+## Engineering Philosophy
 
-* Full-Stack Application Development
+* Build systems, not features
+* Simplicity scales better than complexity
+* Design before implementation
+* Prioritize maintainability and long-term growth
+* Technology should create measurable value
+* Continuous learning is a competitive advantage
+
+---
+
+## Current Focus
+
+* Software Architecture & System Design
 * Artificial Intelligence & Intelligent Automation
-* Human-Computer Interaction (HCI)
-* Product Engineering
-* System Design & Software Architecture
-* API Development & Authentication Systems
-* Database Architecture & Optimization
-* Cross-Platform Web & Mobile Solutions
-* Scalable SaaS Platforms
+* Full-Stack Product Engineering
+* Data Structures & Algorithms
+* Scalable Platform Development
+* International Digital Ecosystems
 
 ---
 
-## Technology Stack
+## Core Technologies
 
 ### Languages
 
@@ -61,13 +65,13 @@ I combine software engineering, product thinking, and user experience principles
 <img src="https://skillicons.dev/icons?i=c,cpp,cs,js,ts,python" />
 </p>
 
-### Frontend
+### Frontend Engineering
 
 <p>
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,html,css" />
 </p>
 
-### Backend
+### Backend Engineering
 
 <p>
 <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,dotnet" />
@@ -79,7 +83,7 @@ I combine software engineering, product thinking, and user experience principles
 <img src="https://skillicons.dev/icons?i=mysql,aws" />
 </p>
 
-Additional Technologies:
+Additional Technologies
 
 * Microsoft SQL Server
 * Drizzle ORM
@@ -98,43 +102,68 @@ Additional Technologies:
 
 ---
 
-## Featured Work
+## Flagship Initiative
 
 ### InWuxi — International City Gateway
 
-**Role:** CTO & Core Technical Member
+**Role:** Co-Founder, CTO & Core Technical Member
 
-A multilingual city platform designed to connect international users, businesses, organizations, volunteers, and local services across Wuxi, China.
+InWuxi is a multilingual digital platform connecting international users with local services, organizations, communities, businesses, and opportunities across Wuxi, China.
 
-Key responsibilities include:
+The platform is designed to support international residents, students, professionals, entrepreneurs, and visitors through accessible, multilingual digital services.
 
-* Defining technical vision and architecture
-* Leading web and mobile platform development
-* Building scalable multilingual infrastructure
-* Engineering AI-powered knowledge systems
-* Designing expansion-ready platform architecture
+### Key Responsibilities
 
-**Technology Stack**
+* Technical vision and platform strategy
+* Full-stack web and mobile architecture
+* Authentication and user systems
+* Multilingual infrastructure
+* AI-powered knowledge systems
+* Product engineering and roadmap execution
+* Multi-city scalability planning
 
-React 19 • TypeScript • Next.js • React Native • Tailwind CSS v4 • tRPC • Drizzle ORM • MySQL • Node.js • Lucia Auth • AWS S3 • Stripe API
+### Technology Stack
 
----
-
-### AI-Powered Applications
-
-Designing intelligent applications that leverage AI technologies to improve productivity, automate workflows, and enhance user experiences.
+React 19 • Next.js • TypeScript • React Native • Tailwind CSS v4 • tRPC • Drizzle ORM • MySQL • Node.js • Lucia Auth • AWS S3 • Stripe API
 
 ---
 
-### E-Commerce Solutions
+## Professional Experience
 
-Building scalable commerce platforms with authentication, product management, payment integration, and administrative systems.
+### AnyWin Human Tech Limited
+
+#### Co-Founder & Chief Technology Officer (CTO)
+
+* Technical leadership
+* Product architecture
+* Technology strategy
+* Engineering management
+* Platform scalability planning
 
 ---
 
-### Interactive 3D Experiences
+### InWuxi Platform
 
-Developing immersive visualization systems using modern web technologies and 3D rendering frameworks.
+#### Core Technical Member
+
+* Full-stack development
+* Platform engineering
+* Product development
+* International user systems
+* Scalable architecture
+
+---
+
+### ICT Bangladesh
+
+#### Frontend Developer
+
+Jan 2025 — Apr 2025
+
+* Responsive interface development
+* Modern frontend engineering
+* AI-integrated applications
+* Collaborative software development
 
 ---
 
@@ -146,6 +175,8 @@ Bachelor of Software Engineering
 
 2025 — 2029
 
+---
+
 ### ICT Bangladesh
 
 Software Engineering Program
@@ -154,42 +185,23 @@ Software Engineering Program
 
 ---
 
-## Professional Experience
+## Vision
 
-### AnyWin Human Tech Limited
+To become a globally impactful software engineer capable of building:
 
-Chief Technology Officer (CTO) & Shareholder
-
-* Technical Strategy
-* Product Architecture
-* Engineering Leadership
-* System Design
-* Technology Evaluation
-
-### InWuxi Platform
-
-Core Technical Member
-
-* Platform Engineering
-* Multilingual Systems
-* Product Development
-* Scalable Architecture
-
-### ICT Bangladesh
-
-Frontend Developer
-
-Jan 2025 — Apr 2025
+* AI-powered systems
+* Scalable software platforms
+* Intelligent digital ecosystems
+* High-performance architectures
+* Technology that empowers millions of users
 
 ---
 
 ## Portfolio
 
-Visit the live website:
-
 ### https://sadekulislam.netlify.app
 
-Explore projects, experience, technical expertise, and ongoing work.
+Explore projects, technical expertise, experience, articles, and ongoing work.
 
 ---
 
@@ -203,12 +215,8 @@ Explore projects, experience, technical expertise, and ongoing work.
 
 ---
 
-<p align="center">
-  <strong>
-    Building technology that scales globally, solves meaningful problems, and creates lasting impact.
-  </strong>
-</p>
+<div align="center">
 
-<p align="center">
-  Full-Stack Engineering • AI Systems • Product Development • Software Architecture
-</p>
+### Building technology that scales globally, solves meaningful problems, and creates lasting impact.
+
+</div>
