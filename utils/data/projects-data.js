@@ -2,9 +2,9 @@ export const projectsData = [
     {
         id: 1,
         name: 'InWuxi: City International Gateway',
-        description: "As the CTO of AnyWin Human Tech Limited, I lead the technical vision and end-to-end development of our flagship ecosystem, 'InWuxi'. I architected a scalable, trilingual (Chinese, English, Korean) platform that serves as a unified international city gateway, bridging the gap between global users and China’s local ecosystem. My role encompasses overseeing the full-stack development of both Web and Mobile applications, establishing robust system architectures, and driving the company’s technical strategy. I lead the development of five core modules focused on city integration, community connection, and AI-driven knowledge bases, ensuring our solutions are stable, replicable for multi-city expansion, and ready for future intelligent scaling.",
+        description:"As Co-Founder & CTO of AnyWin Human Tech Limited, I lead the technical strategy, architecture, and development of InWuxi, a multilingual city gateway platform connecting international users with local services, businesses, organizations, and communities across Wuxi, China. The platform currently supports Chinese, English, Korean, and Russian, with a long-term vision of enabling scalable multi-city expansion through a unified digital ecosystem.",
         tools: ['React 19', 'TypeScript', 'Next.js', 'React Native/Mobile Web', 'Tailwind CSS v4', 'tRPC', 'Drizzle ORM', 'MySQL', 'Node.js', 'Lucia Auth', 'AWS S3', 'Stripe API'],
-        role: 'CTO & Core Technical Member',
+        role: "Co-Founder & CTO",
         code: 'Private Repository',
         demo: 'https://inwuxi.com (Coming Soon)',
     },
