@@ -28,51 +28,53 @@ export const metadata = {
     template: "%s | Sadekul Islam",
   },
 
-  description:
-    "Sadekul Islam (Li Ao) is a Software Engineering student in China, CTO & Shareholder at AnyWin Human Tech Limited, and a Full-Stack Developer specializing in AI systems, Human-Computer Interaction (HCI), automation, scalable web applications, and digital product engineering.",
+ description:
+  "Sadekul Islam (Li Ao) is a Software Engineering student in China, Co-Founder & CTO at AnyWin Human Tech Limited, and a Full-Stack Software Engineer focused on scalable platforms, AI-powered systems, software architecture, product engineering, and international digital ecosystems.",
 
-  keywords: [
-    "Sadekul Islam",
-    "Sadik",
-    "Li Ao",
-    "利奥",
+keywords: [
+  "Sadekul Islam",
+  "Sadik",
+  "Li Ao",
+  "利奥",
 
-    "Software Engineer",
-    "Software Engineering Student",
-    "Full Stack Developer",
-    "Frontend Developer",
-    "Backend Developer",
+  "Software Engineer",
+  "Software Engineering Student",
+  "Full Stack Developer",
 
-    "CTO",
-    "Chief Technology Officer",
-    "Shareholder",
+  "Co-Founder",
+  "CTO",
+  "Chief Technology Officer",
 
-    "AnyWin Human Tech Limited",
+  "AnyWin Human Tech Limited",
 
-    "AI Developer",
-    "AI Engineer",
-    "Artificial Intelligence",
-    "AI Systems",
-    "AI Automation",
+  "Software Architecture",
+  "System Design",
+  "Product Engineering",
 
-    "Human Computer Interaction",
-    "HCI",
+  "Artificial Intelligence",
+  "AI Systems",
+  "AI Automation",
 
-    "React Developer",
-    "Next.js Developer",
-    "TypeScript Developer",
-    "Node.js Developer",
+  "React",
+  "Next.js",
+  "TypeScript",
+  "Node.js",
+  "tRPC",
+  "Drizzle ORM",
+  "MySQL",
 
-    "Web Application Developer",
-    "Software Architect",
+  "Scalable Platforms",
+  "Digital Ecosystems",
+  "Multilingual Platforms",
 
-    "InWuxi",
-    "InChina",
-    "Wuxi University of Technology",
+  "InWuxi",
+  "InChina",
 
-    "Bangladeshi Developer",
-    "Developer in China",
-  ],
+  "Wuxi University of Technology",
+
+  "Bangladeshi Software Engineer",
+  "Software Engineer in China",
+],
 
   authors: [
     {
